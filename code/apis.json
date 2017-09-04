@@ -1,0 +1,31 @@
+{
+    "cexio" : {
+        "api_key"    : "pH6CGPimhACEhzWDP0OsLX65OE",
+        "secret_key" : "hUEgEj5I2YhUaL8cSet4kjEbCSo",
+        "id"         : "up108476256"
+    },
+    
+    "yobit" : {
+        "api_key" : "8264BDA3490F13885A7E3403D1D38E54", 
+        "secret_key" : "8953b5dcae2df92637aa1f4f3365a481"
+    },
+
+    "bitfinex" : {
+        "api_key" : "ciPnjXIT5LynbAVjr82P2G5XNaOwSPD2spyl44VQqlM",
+        "secret_key" : "eoeRsrq65nEpaqBKNyXe5xPYuAYOdcJ0k5ztMArHYQq"
+    },
+
+    "bitflyer" : {
+    },
+
+    "kraken" : {
+    },
+
+    "poloniex" : {
+    },
+
+    "bittrex" : {
+    }
+
+
+}

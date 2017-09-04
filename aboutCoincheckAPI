@@ -1,0 +1,17 @@
+Link
+https://coincheck.com
+
+Private APIにかんしては認証が必要
+
+for Requesting
+ACCESS-KEY : API key
+ACCESS-NONCE : 毎リクエストごとに増加する必要のある正の整数
+通常はUNIXタイムスタンプを使う
+ACCESS-SIGNATURE :
+ACCESS-NONCE, リクエスト先URL, リクエストボディをすべて文字列にして連結したものを、HMAXC-SHA256 hash形式でシークレットキーを使って署名した結果
+
+
+how to use api in python
+http://fx.ichizo.biz/2017/03/10/coincheck-bitcoin.html
+
+
