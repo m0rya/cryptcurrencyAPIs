@@ -13,9 +13,9 @@ r = requests.get(url)
 print(r.json())
 '''
 
-f = open('apis.json', 'r')
-data = json.load(f)
-f.close()
+with open('../data/apis.json', 'r') as f:
+    data = json.load(f)
+
 
 url = 'https://yobit.net/tapi'
 values = {}

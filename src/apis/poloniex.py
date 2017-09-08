@@ -4,12 +4,11 @@ import json
 url = 'https://poloniex.com/public?command='
 
 
-'''
 url += 'returnTicker'
 r = requests.get(url)
 print("I got data")
 print(r.json())
-
+'''
 data = r.json()
 
 for v in data.keys():
